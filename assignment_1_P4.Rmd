@@ -1,0 +1,20 @@
+---
+title: "ST2195 Assignment 1"
+author: "Olivia"
+date: "9/29/2021"
+output: html_document
+---
+
+A **R markdown** file printing integers from *1 to 10*. 
+
+The code is shown below:
+
+```{r}
+
+i = 0
+for(i in 0:9) {
+  i = i+1
+  print(i)
+}
+
+```
